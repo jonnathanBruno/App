@@ -174,7 +174,7 @@ function escolherListas(idEstabelecimento){
 			var lista = $.parseJSON(data.d);
 			if(typeof(lista.erro)=== 'undefined'){
 				if(lista.length != 0){
-					var confirme = confirm("Você não está em nenhuma lista\n deseja escolher uma lista?");
+					var confirme = confirm("Voce nao esta em nenhuma lista\n deseja escolher uma lista?");
 					if(confirme){
 						document.getElementById("nomeLista").innerHTML = "";
 						for(var i=0; i<lista.length ;i++)
